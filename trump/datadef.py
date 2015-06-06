@@ -52,6 +52,7 @@ class FloatDataDef(ConvertedDataDef):
 class StrDataDef(ConvertedDataDef):
     """Implements a basic string data definition."""
     sqlatyp = String
+    
     pythontyp = str
 
     def __init__(self, data):
